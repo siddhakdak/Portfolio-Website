@@ -1,0 +1,104 @@
+header{
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header__container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+
+/* animation */
+#spin {
+    color:rgb(33, 233, 237);
+  }
+  #spin:after {
+    content:"";
+    animation: spin 6s linear infinite;
+  }
+  @keyframes spin {
+    0% { content:"Fullstack Developer";}
+    35% { content:"Learner";}
+    55% { content:"DSA enthusiast";}
+    75% { content:"Blogger";}
+    100% { content:"Designer";}
+  }
+
+/* ========CTA========= */
+
+.cta{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/* ========header socials========= */
+.header__socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+.header__socials::after{
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+/* ========me========= */
+
+.me{
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 3rem;
+    border-radius: 12rem 12rem 0 0; 
+    padding-left: 5px;
+    overflow: hidden;
+    padding: 3rem 0.8rem 1.5rem 0.8rem;
+}
+
+/* =====scroll bar======== */
+.scroll__down{
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+
+
+}
+
+/* ========media query for tablet======== */
+@media screen and (max-width :1024px){
+    header{
+            height: 68vh;
+
+    }
+  }
+  /* ========media query for mobile======== */
+  @media screen and (max-width :600px){
+    header{
+        height: 100vh;
+    }
+        .header__socials, .scroll__down{
+            display: none;
+        }
+
+        .me{
+            height: 22rem;
+        }
+
+  }
