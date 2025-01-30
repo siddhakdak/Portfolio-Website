@@ -19,8 +19,8 @@ const Experience = () => {
             </article>
             <article className="experience_details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <div><h4>CSS</h4>
-              <small className="text-light">Intermediate</small></div>
+              <div><h4>C++</h4>
+              <small className="text-light">Experienced</small></div>
             </article>
             <article className="experience_details">
               <BsFillPatchCheckFill className="experience__details-icon" />

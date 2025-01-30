@@ -23,7 +23,7 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>1 year+</small>
+              <small>6 Months</small>
             </article>
 
             <article className="about__card">
@@ -43,7 +43,7 @@ const About = () => {
         <p>
         Hi there!
 
-I am a second-year BTech student at Bennett University, and my area of expertise is frontend development. I have a strong passion for creating visually stunning and interactive websites and applications that provide a seamless user experience. <br />
+I am a Final-year BTech student at Bennett University, and my area of expertise is frontend/ Backend and Fullstack development. I have a strong passion for creating visually stunning and interactive websites and applications that provide a seamless user experience. <br />
 I have been honing my skills in HTML, CSS, JavaScript, and various frontend frameworks, such as React. <br /> I have also gained experience in creating responsive web design and optimizing websites for speed and performance. <br />
 Apart from technical skills, I am also well-versed in design principles, which helps me create aesthetically pleasing user interfaces that are easy to navigate
         </p>

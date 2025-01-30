@@ -1,5 +1,5 @@
 import React from 'react'
-import tickets from '../../assets/siddhak.pdf'
+import tickets from '../../assets/Siddhak_Dak_Resume.pdf'
 
 const CTA = () => {
   return (
