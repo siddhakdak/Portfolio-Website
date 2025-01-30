@@ -6,6 +6,7 @@ import IMG3 from '../../assets/NETFLIXX.jpg'
 import IMG4 from '../../assets/IMG4.png'
 
 
+
 const data = [
   {
     id: 4,
